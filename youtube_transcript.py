@@ -23,9 +23,9 @@ def get_transcript(video_url):
     
 
 def extract(transcript):
-    text = ""
+    text = []
     for line in transcript:
-        text +=line.get("text")+"\n"
+        text.append(line.get("text")+"\n")
     return text
 
 def write(transcript,video_id):
