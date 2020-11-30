@@ -1,4 +1,5 @@
-# Get transcript from video link and Make it into a nice txt
+# Web App that turns Youtube URL into nice transcript
+
 
 
 ## Setup
